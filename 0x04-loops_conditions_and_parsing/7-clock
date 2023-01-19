@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # GARBaGEEGEGGEGEGEG
-m=0
+m=1
 h=0
 while [ $h -lt 12 ]
 	do
@@ -8,7 +8,7 @@ while [ $h -lt 12 ]
 		then
 			((h++))
 			echo "Hour: $h"
-			((m = 0 ))
+			((m = 1 ))
 		else	
 			echo "$m"
 			((m++))
