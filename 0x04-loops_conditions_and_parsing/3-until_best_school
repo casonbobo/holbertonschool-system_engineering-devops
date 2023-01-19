@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# GARBAGE
 i=1
 until [ $i -gt 10 ]
 	do
