@@ -2,6 +2,7 @@
 # GARBaGEEGEGGEGEGEG
 m=1
 h=0
+echo "Hour: 0"
 while [ $h -lt 12 ]
 	do
 		if [ $m -gt 59 ]
