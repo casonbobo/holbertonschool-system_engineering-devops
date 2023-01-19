@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# GARBaGEEGEGGEGEGEG
+m=0
+h=0
+while [ $h -lt 12 ]
+	do
+		if [ $m -gt 59 ]
+		then
+			((h++))
+			echo "Hour: $h"
+			((m = 0 ))
+		else	
+			echo "$m"
+			((m++))
+		
+		fi		
+	done
