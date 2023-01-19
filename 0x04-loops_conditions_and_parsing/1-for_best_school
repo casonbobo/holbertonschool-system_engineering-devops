@@ -3,5 +3,5 @@
 for i in {1..10}
 	do 
 	echo "Best School"
-	i=$((i + 1))
+	i=$(($i + 1))
 	done
