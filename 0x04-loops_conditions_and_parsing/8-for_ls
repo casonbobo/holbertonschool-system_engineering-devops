@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # COMMENTS
 i=1
+ls -1 . | cut -f 2 -d '-'
 for i in [ i -e 1 ]
-	do
-	       ls -1 . | cut -d- -f2	
+	do	
 		# why do i need this for command??
 		#I dont need it
 		((i++))
