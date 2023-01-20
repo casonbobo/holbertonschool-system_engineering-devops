@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # COMMENTS
 i=1
-	ls -1 . | cut -d- -f2
 for i in [ i -e 1 ]
-	do 
-		# why do i need this??
+	do
+	       ls -1 . | cut -d- -f2	
+		# why do i need this for command??
+		#I dont need it
 		((i++))
 	done
