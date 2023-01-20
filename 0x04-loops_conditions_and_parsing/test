@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+i=1
+while [ $i -le 10 ]
+do
+if [ $i -le 5 ] || [ $i -ge 9 ]
+then
+echo "no"
+((i++))
+else
+echo "yes"
+((i++))
+fi
+done
