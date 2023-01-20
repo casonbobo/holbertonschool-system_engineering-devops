@@ -2,17 +2,14 @@
 # GARBaGEEGEGGEGEGEG
 m=1
 h=0
-echo "Hour: 0"
 while [ $h -lt 13 ]
 	do
-		if [ $m -gt 59 ]
-		then
-			((h++))
-			echo "Hour: $h"
-			((m = 1 ))
-		else	
-			echo "$m"
-			((m++))
-		
-		fi		
+	echo "Hour: $h"	
+		while [ $m -lt 59 ]
+		do
+		echo "$m"
+		((m++))
+		done
+	((h++))
+	((m = 1))	
 	done
