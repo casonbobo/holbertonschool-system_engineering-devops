@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# PT GARbyyy POOPOO 2222
+pgrep -l bash
