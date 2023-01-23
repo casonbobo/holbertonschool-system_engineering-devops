@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# No way this works. Is a trap
+for (( ; ; ))
+do 
+echo "To infinity and beyond"
+sleep 2
+done
