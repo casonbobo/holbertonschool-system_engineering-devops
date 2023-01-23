@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Theres daemons in this computer!!!
+ps -ahu
