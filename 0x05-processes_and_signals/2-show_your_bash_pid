@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Theres daemons in this computer Electric Boogaloo!!!
-grep "bash" | ps aux -H
-# shellcheck disable=SC2009
+grep "bash" | ps -auh
+shellcheck disable=SC2009
