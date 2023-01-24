@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# WONT STOP ME NOW
+pkill -f beyond
